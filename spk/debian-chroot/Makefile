@@ -42,6 +42,9 @@ endif
 ifeq ($(findstring $(ARCH),qoriq),$(ARCH))
 DEBIAN_ARCH = powerpc
 endif
+ifeq ($(findstring $(ARCH),rtd1296),$(ARCH))
+DEBIAN_ARCH = arm64
+endif
 ifeq ($(strip $(DEBIAN_ARCH)),)
 $(error Arch $(ARCH) not supported)
 endif
