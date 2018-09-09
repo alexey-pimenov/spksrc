@@ -1,9 +1,9 @@
 PKG_NAME = Jackett
-PKG_VERS = 0.8.490
+PKG_VERS = 0.10.80-rutracker-fix
 PKG_EXT = tar.gz
 PKG_DIST_NAME = $(PKG_NAME).Binaries.Mono.$(PKG_EXT)
 PKG_DIST_FILE = $(PKG_NAME)-$(PKG_VERS).$(PKG_EXT)
-PKG_DIST_SITE = https://github.com/Jackett/Jackett/releases/download/v$(PKG_VERS)
+PKG_DIST_SITE = https://ci.appveyor.com/api/buildjobs/y8g0m3q4rvjxtmmk/artifacts
 PKG_DIR = jackett
 
 DEPENDS =
