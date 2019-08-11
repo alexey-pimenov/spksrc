@@ -3,7 +3,7 @@ PKG_VERS = 0.11.43
 PKG_EXT = tar.gz
 PKG_DIST_NAME = $(PKG_NAME).Binaries.Mono.$(PKG_EXT)
 PKG_DIST_FILE = $(PKG_NAME)-$(PKG_VERS).$(PKG_EXT)
-PKG_DIST_SITE = https://ci.appveyor.com/api/buildjobs/l939hat5lf3na0cl/artifacts
+PKG_DIST_SITE = https://ci.appveyor.com/api/buildjobs/01m8je2iow1d6nph/artifacts/Jackett.Binaries.Mono.tar.gz
 PKG_DIR = jackett
 
 DEPENDS =
