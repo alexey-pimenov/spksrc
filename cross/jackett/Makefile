@@ -1,9 +1,9 @@
 PKG_NAME = Jackett
-PKG_VERS = 0.11.707
+PKG_VERS = 0.13.4
 PKG_EXT = tar.gz
 PKG_DIST_NAME = $(PKG_NAME).Binaries.Mono.$(PKG_EXT)
 PKG_DIST_FILE = $(PKG_NAME)-$(PKG_VERS).$(PKG_EXT)
-PKG_DIST_SITE = https://ci.appveyor.com/api/buildjobs/eui4c87y8c7f2cqc/artifacts
+PKG_DIST_SITE = https://github.com/alexey-pimenov/Jackett/releases/download/v$(PKG_VERS)
 PKG_DIR = jackett
 
 DEPENDS =
