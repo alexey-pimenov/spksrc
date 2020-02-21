@@ -1,6 +1,6 @@
 SPK_NAME = nano
-SPK_VERS = 2.9.8
-SPK_REV = 5
+SPK_VERS = 4.4
+SPK_REV = 6
 SPK_ICON = src/nano.png
 
 DEPENDS = cross/$(SPK_NAME)
@@ -11,11 +11,10 @@ DESCRIPTION_GER = nano ist ein einfacher Editor, der die Bearbeitung von Dateien
 RELOAD_UI = no
 DISPLAY_NAME = nano
 STARTABLE = no
-CHANGELOG = "Update to 2.9.8."
 
 HOMEPAGE   = http://www.nano-editor.org
 LICENSE    = GPLv2
 
-SERVICE_SETUP = src/service-setup.sh
+SPK_COMMANDS = bin/nano bin/rnano
 
 include ../../mk/spksrc.spk.mk
